@@ -8,7 +8,7 @@ const MyHotels = () => {
     const { data: hotelData, isLoading, error } = useQuery({
         queryKey: ["fetchMyHotels"],
         queryFn: apiClient.fetchMyHotels,
-        onError: () => {},
+        
       });
       
 
